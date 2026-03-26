@@ -4,11 +4,17 @@ A Python and Gradio based project for optimizing disaster relief distribution us
 
 ## Live Demo
 
-[Live Demo](https://your-live-demo-url)
+[Click here for Live Demo](https://your-live-demo-url)
 
-After deployment, replace `https://your-live-demo-url` with your public app link.
+## How It Works
 
-## Preview
+1. Upload a CSV file or use the built-in sample dataset.
+2. Enter the number of trucks.
+3. Provide truck capacities as comma-separated values.
+4. Run the allocation process.
+5. Review item allocation, truck utilization, total utility, leftover items, and generated plots.
+
+## Sample Preview
 
 ![Main Interface](https://github.com/user-attachments/assets/dbfc5b39-e60c-4653-b0c8-d929c29180e6)
 
@@ -22,14 +28,6 @@ After deployment, replace `https://your-live-demo-url` with your public app link
 - Built-in default dataset for quick testing
 - Interactive Gradio user interface
 - Visual output with bar charts and pie charts
-
-## How It Works
-
-1. Upload a CSV file or use the built-in sample dataset.
-2. Enter the number of trucks.
-3. Provide truck capacities as comma-separated values.
-4. Run the allocation process.
-5. Review item allocation, truck utilization, total utility, leftover items, and generated plots.
 
 ## Project Structure
 
