@@ -4,7 +4,7 @@ A Python and Gradio based project for optimizing disaster relief distribution us
 
 ## Live Demo
 
-[Click here for Live Demo]([https://your-live-demo-url](https://huggingface.co/spaces/Lokeshlokey/Disaster-relief-distribution-system-using-knapsack-fraction)
+[Click here for Live Demo]([https://your-live-demo-url](https://huggingface.co/spaces/Lokeshlokey/Disaster-relief-distribution-system-using-knapsack-fraction))
 
 ## How It Works
 
