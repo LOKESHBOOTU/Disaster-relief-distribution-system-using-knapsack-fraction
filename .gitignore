@@ -1,7 +1,8 @@
 venv/
+.venv/
+.gradio/
 __pycache__/
 *.pyc
 *.pkl
-*.png
-*.jpg
 .DS_Store
+Thumbs.db
