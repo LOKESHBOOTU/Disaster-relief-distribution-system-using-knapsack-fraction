@@ -1,34 +1,40 @@
-# Disaster-relief-distribution-system-using-knapsack-fraction
-<img width="1856" height="922" alt="Image" src="https://github.com/user-attachments/assets/dbfc5b39-e60c-4653-b0c8-d929c29180e6" />
+# Disaster Relief Distribution System Using Knapsack Fraction
 
-<img width="1191" height="508" alt="Image" src="https://github.com/user-attachments/assets/8d52d199-43d1-4593-af28-d23a61cadf6d" />
----
-title: Disaster Relief Resource Allocation
-emoji: 🚚
-colorFrom: blue
-colorTo: green
-sdk: gradio
-app_file: app.py
-pinned: false
----
+A Python and Gradio based project for optimizing disaster relief distribution using the Fractional Knapsack algorithm. The system allocates limited truck capacity across essential relief items such as water, medicine, blankets, and food packets based on their importance-to-weight ratio.
 
-# Disaster Relief Resource Allocation
+## Live Demo
 
-A Python + Gradio project that demonstrates the Fractional Knapsack algorithm for disaster relief logistics. The app helps allocate limited truck capacity across relief items such as water, medicine, blankets, and food packets based on their importance-to-weight ratio.
+[Live Demo](https://your-live-demo-url)
+
+After deployment, replace `https://your-live-demo-url` with your public app link.
+
+## Preview
+
+![Main Interface](https://github.com/user-attachments/assets/dbfc5b39-e60c-4653-b0c8-d929c29180e6)
+
+![Charts and Allocation Output](https://github.com/user-attachments/assets/8d52d199-43d1-4593-af28-d23a61cadf6d)
 
 ## Features
 
-- Fractional Knapsack allocation
-- Multi-truck resource distribution
-- CSV upload support
-- Built-in default dataset
-- Gradio-based interactive interface
-- Bar and pie chart visualizations
+- Fractional Knapsack based resource allocation
+- Multi-truck distribution support
+- CSV upload for custom datasets
+- Built-in default dataset for quick testing
+- Interactive Gradio user interface
+- Visual output with bar charts and pie charts
+
+## How It Works
+
+1. Upload a CSV file or use the built-in sample dataset.
+2. Enter the number of trucks.
+3. Provide truck capacities as comma-separated values.
+4. Run the allocation process.
+5. Review item allocation, truck utilization, total utility, leftover items, and generated plots.
 
 ## Project Structure
 
 ```text
-DAA PBL/
+Disaster-relief-distribution-system-using-knapsack-fraction/
 |-- app.py
 |-- requirements.txt
 |-- README.md
@@ -48,33 +54,17 @@ DAA PBL/
 pip install -r requirements.txt
 ```
 
-## Run The App
+## Run Locally
 
 ```bash
 python app.py
 ```
 
-After running the command, Gradio will start a local web app and print a local URL in the terminal.
-
-## Live Demo
-
-Add your deployed app link here so visitors can open the interface directly from GitHub:
-
-```md
-[Live Demo](https://your-live-demo-url)
-```
-
-Recommended hosting options for this Gradio app:
-
-- Hugging Face Spaces
-- Render
-- Railway
-
-Once the app is deployed, replace `https://your-live-demo-url` with the public URL.
+After running the app, Gradio will generate a local URL in the terminal where you can access the interface in your browser.
 
 ## CSV Format
 
-Upload a CSV file with these columns:
+The uploaded CSV file must contain the following columns:
 
 ```csv
 Item,Weight,Importance
@@ -83,21 +73,15 @@ Water,250,100
 Medicine,310,120
 ```
 
-Column rules:
+### Column Description
 
-- `Item`: name of the relief item
-- `Weight`: weight of the item
-- `Importance`: priority or utility score of the item
+- `Item`: Name of the relief item
+- `Weight`: Weight of the item
+- `Importance`: Utility or priority score of the item
 
-## Example Input
+## Sample Dataset
 
 A sample dataset is included in `data/sample_resources.csv`.
-
-## Notes For GitHub Upload
-
-- Do not upload `venv/`
-- Do not upload `.gradio/`
-- Install dependencies from `requirements.txt` after cloning
 
 ## Tech Stack
 
@@ -106,3 +90,9 @@ A sample dataset is included in `data/sample_resources.csv`.
 - Pandas
 - Matplotlib
 - Pillow
+
+## Notes
+
+- Do not upload `venv/`
+- Do not upload `.gradio/`
+- Install dependencies from `requirements.txt` after cloning the repository
